@@ -14,7 +14,7 @@
 ?>
 <ul class="nav navbar-nav navbar-right user-nav">
     <?php if (qa_opt('q2apro_onsitenotifications_enabled') && !empty($this->content['loggedin']['suffix'])): ?>
-    <li class="notf-bubble visible-lg">
+    <li class="notf-bubble">
         <?php echo $this->content['loggedin']['suffix'] ?>
     </li>
     <?php endif ?>
